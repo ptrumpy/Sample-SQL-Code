@@ -1,0 +1,1 @@
+select packnum, description, substring(description,21,5) as DescNew from SupplyChain_Misc.dbo.PIc704Current where year = 2017 and substring(description,21,5)<>''

@@ -1,0 +1,3 @@
+'6' + case when left(itemnumber,2) = '00' then Right(itemnumber,5) else right(ItemNumber,6) end
+
+
